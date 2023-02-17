@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    align-items:center; /* Alinha os itens verticalmente no centro */
+    background-color: rgb(41, 47, 47);
+    border-radius: 50px;
+    border: 30px;
+    overflow: auto;
+    width: 1480px;
+    height: 60px;
+    padding: 10px;
+    
+  }
+  
+  h1 {
+    flex: 1; /* Faz o h1 ocupar todo o espaço restante */
+    text-align:left;
+    color: aliceblue;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center; /* Alinha os botões horizontalmente no centro */
+    margin: 0 10px; /* Adiciona uma margem entre os botões */
+  }
+
+
+  
