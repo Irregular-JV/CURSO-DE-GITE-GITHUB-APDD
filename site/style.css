@@ -13,7 +13,6 @@ font-size: medium;
 
 }
 
-
 header.header-style {
   display: flex;
   align-items: center;
@@ -30,14 +29,16 @@ header.header-style {
 
 h1 {
   flex: 1;
-  text-align: left;
+  text-align: center;
   color: aliceblue;
-  background-color: rgb(142, 100, 9);
   border-radius: 5px;
-  box-shadow: 0 0 5px rgb(47, 23, 155), 0 0 20px rgb(142, 100, 9), 0 0 40px rgb(142, 100, 9), 0 0 80px rgb(167, 234, 11);
-  text-shadow: 0 0 5px rgb(142, 100, 9), 0 0 20px rgb(9, 142, 18), 0 0 40px rgb(142, 100, 9), 0 0 80px rgb(142, 100, 9);
+  box-shadow: 0 0 5px rgb(47, 23, 155), 0 0 20px rgb(142, 100, 9), 0 0 10px rgb(142, 100, 9), 0 0 50px rgb(167, 234, 11);
+  text-shadow: 0 0 5px rgb(142, 100, 9), 0 0 20px rgb(9, 142, 18), 0 0 10px rgb(142, 100, 9), 0 0 50px rgb(142, 100, 9);
   animation: neon 1.5s ease-in-out infinite alternate;
 
+
+text-align: center;
+padding: 4px 0;
   
 }
 
